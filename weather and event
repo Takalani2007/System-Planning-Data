@@ -1,0 +1,9 @@
+
+INSERT INTO WEATHER (CONDITION,TEMPERATURE,HUMIDITY,EVENT_ID) 
+VALUES ('Sunny', 25.5, 40,1), ('Cloudy', 18.0, 60,1), ('Rainy', 15.2, 85,2);
+
+
+INSERT INTO EVENT (TITLE,DATE,LOCATION,CATEGORY_ID) 
+VALUES ('City Marathon', '2026-05-01', 'London', 1),
+       ('Mountain Bike Tour', '2026-06-15', 'Alps', 2),
+       ('River Run', '2026-07-20', 'Paris', 1);
